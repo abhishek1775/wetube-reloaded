@@ -2,15 +2,20 @@
   "name": "wetube",
   "version": "1.0.0",
   "description": "The best way to watch a videos.",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abhishek1775/wetube-reloaded.git"
+  },
+  "scripts": {
+    "win": "node index.js"
   },
   "author": "Changjung Joo<joopic_1st@naver.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/abhishek1775/wetube-reloaded/issues"
   },
-  "homepage": "https://github.com/abhishek1775/wetube-reloaded#readme"
+  "homepage": "https://github.com/abhishek1775/wetube-reloaded#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
