@@ -7,7 +7,7 @@
     "url": "git+https://github.com/abhishek1775/wetube-reloaded.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node index.js"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "author": "Changjung Joo<joopic_1st@naver.com>",
   "license": "MIT",
